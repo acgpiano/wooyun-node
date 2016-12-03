@@ -1,0 +1,27 @@
+.search-index {
+    max-width: 60%;
+    margin: 100px auto;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.type-wrap {
+    text-align: center;
+}
+
+#typechoose {
+    width: 80%;
+    padding: 0;
+}
+
+.button-wrap {
+    text-align: right;
+}
+
+.submit {
+    width: 80%;
+    border-radius: 4px;
+}

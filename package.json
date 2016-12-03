@@ -1,0 +1,32 @@
+{
+  "name": "wooyun-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "db": "node mysql/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acgpiano/wooyun-node.git"
+  },
+  "keywords": [
+    "wooyun"
+  ],
+  "author": "zzs0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acgpiano/wooyun-node/issues"
+  },
+  "homepage": "https://github.com/acgpiano/wooyun-node#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "bluebird": "^3.4.6",
+    "cheerio": "^0.22.0",
+    "mysql": "^2.12.0"
+  }
+}

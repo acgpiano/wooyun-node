@@ -1,0 +1,148 @@
+.result-page {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.result-page h1 {
+    font-size: 24px;
+}
+
+.result-page .nav-back {
+    float: right;
+    text-decoration: none;
+}
+
+.result-page table {
+    width: 100%;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+tbody tr:nth-child(odd) {
+    background: #f8f8f8;
+}
+
+#jump-page {
+    display: inline-block;
+    float: right;
+}
+
+footer .jump-num {
+    display: inline-block;
+    width: 25px;
+    font-size: 12px;
+    outline: none;
+}
+
+footer .jump-to {
+    display: inline-block;
+    height: 25px;
+    width: 50px;
+    border: 0;
+    border-radius: 2px;
+    background: #444;
+    color: #fff;
+    font-size: 12px;
+    vertical-align: middle;
+    margin-left: 5px;
+    outline: none;
+}
+
+#wooyun-type,
+#wooyun-author {
+    color: rgb(0, 0, 238);
+    cursor: pointer;
+}
+
+/*分页样式参考*/
+a {
+    text-decoration: none;
+}
+
+#page-index {
+    height: 50px;
+    display: table;
+    margin: 0 auto;
+}
+
+.page {
+    text-align: center;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.pagingUl {
+    float: right;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 30px;
+}
+
+.pagingUl li {
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    text-align: center;
+    margin-right: 5px;
+    border-radius: 5px
+}
+
+.pagingUl li a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 28px;
+    color: #666;
+    font-size: 12px;
+    border-radius: 5px
+}
+
+.prv,
+.next {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    background: #fff;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.prv {
+    margin-right: 10px;
+}
+
+.first,
+.last {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    /*border: 1px solid #ddd;*/
+    cursor: pointer;
+    background: #fff;
+    padding: 0 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.prv:hover,
+.next:hover,
+.first:hover,
+.last:hover,
+.pagingUl li a:hover,
+.activP {
+    background-color: #000!important;
+    color: #fff!important;
+}
