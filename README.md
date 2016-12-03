@@ -6,7 +6,7 @@
 status;
 ```  
 如果是以下状态，就代表可以下一步了。
-![](http://oevuw60db.bkt.clouddn.com/QQ20161203-0@2x.png)  
+![](http://oevuw60db.bkt.clouddn.com/QQ20161203-0@2x.png?imageView2/2/w/640/q/90)  
 把该项目克隆到本地  
 ```
 git clone https://github.com/acgpiano/wooyun-node.git
