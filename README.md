@@ -14,7 +14,7 @@ git clone https://github.com/acgpiano/wooyun-node.git
 ```  
 修改config.js里面的用户名和密码，改为你的mysql的用户名和密码，port是服务的端口，可以自行修改。
 下载wooyun的静态资源:  
-链接: [https://pan.baidu.com/s/1jIjX0LS](https://pan.baidu.com/s/1jIjX0LS) 密码: mqnp  
+链接: [百度网盘](https://pan.baidu.com/share/init?shareid=3613354206&uk=4113422303) 密码: mqnp  
 需要解压到wooyun-node/static/bugs/   
 文件夹下面(自行新建bugs文件夹)  
 接下来安装node.js，去官网下载就好了。  
