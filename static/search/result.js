@@ -209,7 +209,7 @@ $(function() {
             url: '/check',
             type: 'GET',
             data: {
-                page: page,
+                page: page--,
             }
         }).then(function(result) {
             $('tbody').empty();
